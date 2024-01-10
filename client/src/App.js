@@ -25,7 +25,7 @@ import AdminReport from "./page/admin/report/AdminReport";
 import ManagerProjectDetails from "./page/manager/project/ManagerProjectDetails";
 import TaskReportFeedback from "./page/employee/TaskReportFeedback";
 
-export const server = "http://192.168.1.51:4000/api/v1"
+export const server = "https://crm-kappa-sandy.vercel.app/api/v1"
 
 function App() {
   return (
