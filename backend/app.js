@@ -30,7 +30,7 @@ app.use(cookieParser());
 
 // Allow requests only from http://192.168.1.8:3000
 const corsOptions = {
-  origin: "https://ems-mu-three.vercel.app/",
+  origin: "https://ems-mu-three.vercel.app",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
 };
