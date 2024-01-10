@@ -712,7 +712,7 @@ const EmployeeDashboard = () => {
               </div>
             )}
           </div>
-          )}
+          
           {/* task  */}
           {activeTab === "Task" && (
             <div>
